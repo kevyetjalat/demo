@@ -5,6 +5,7 @@
   }
     
 #bg-img{
+    background-repeat: no-repeat;
     min-height: 100%;
     min-width: 1095px;
     width: 100%;
