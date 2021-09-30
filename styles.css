@@ -6,5 +6,17 @@
     
 body {
  background-image: url("mato.png");
+   min-height: 100%;
+  min-width: 1095px;
+   width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @media screen and (max-width: 1095px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -548px;   /* 50% */
+  }
  background-color: #000000;
 }
