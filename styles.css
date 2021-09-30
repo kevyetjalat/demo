@@ -4,9 +4,7 @@
   color: rgb(0, 186, 25);
   }
     
-#bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  min-width: 100%;
-  min-height: 100%;
+body {
+ background-image: url("mato.png");
+ background-color: #000000;
+}
