@@ -4,10 +4,8 @@
   color: rgb(0, 186, 25);
   }
     
-html { 
-  background: url(mato.png) no-repeat center center scroll; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div {
+    background-image:url(mato.png);
+    background-repeat:no-repeat;
+    background-size:auto;
 }
