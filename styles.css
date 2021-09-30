@@ -4,14 +4,10 @@
   color: rgb(0, 186, 25);
   }
     
-#bg-img{
-    background-repeat: no-repeat;
-    min-height: 100%;
-    min-width: 1095px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index:-4;
- }
+html { 
+  background: url(mato.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
