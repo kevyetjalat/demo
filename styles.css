@@ -4,10 +4,10 @@
   color: rgb(0, 186, 25);
   }
     
-body {
- background-image: url("mato.png");
- background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left; 
- background-color: #000000;
+html { 
+  background: url(mato.png) no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
