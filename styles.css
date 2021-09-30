@@ -5,7 +5,6 @@
   }
     
   html { 
-  background: url(mato.png) no-repeat center center cover;
-}
-
-// fixed;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+  background: url(mato.png)
+  background-size: 100%;
+  }
