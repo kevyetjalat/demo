@@ -1,14 +1,13 @@
-    body, html {
+    body {
         
   font-family: 'Courier New', monospace;
   color: rgb(0, 186, 25);
-  height: 100%
   }
     
-  .bg {
-    background-image: url("mato.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  html { 
+  background: url(mato.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
