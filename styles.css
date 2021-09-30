@@ -8,7 +8,7 @@
   height: 100%;
 }
   .bg {
-    background-image: url("mato.png");
+    background-image: url("demo/mato.png");
     height: 100%;
     background-position: center;
   background-repeat: no-repeat;
