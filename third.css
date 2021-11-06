@@ -64,4 +64,9 @@ footer {
 a.highlight:hover {
   color: red;
   
-} 
+}
+
+div {
+  margin-right: 50px;
+  margin-left: 50px;
+}
