@@ -4,7 +4,14 @@
     text-align: center;
     background-color: black;
     margin: 100px;
-    border: 1px solid red;
+    border: 1px solid purple;
 }
 
+body {
+  background-image: url("spacetest1111.jpeg");
+  background-repeat: repeat;
+}
 
+h1 {
+    color: white;
+}
