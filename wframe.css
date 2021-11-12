@@ -4,8 +4,12 @@ body {
 	}
 	
 .otsikko {
-	text-align: center;
-	padding-top: 45px;
+	padding-top: 50px;
+	padding-left: 320px;	
+}
+.otsikko3 {
+	padding-top: 50px;
+	padding-left: 320px;	
 }
 .container {
 	padding-top: 90px;
@@ -68,4 +72,10 @@ border-color: solid #00E253;
   background-color: #191919;
   color: #00E253;
 	
+}
+.kuvat2 {
+	width: 20%;
+}
+.kuvat3 {
+	width: 60%;
 }
