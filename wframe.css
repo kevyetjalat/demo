@@ -6,7 +6,6 @@ body {
 .otsikko {
 	text-align: center;
 	padding-top: 45px;
-	padding-bottom: 20px;
 }
 .container {
 	padding-top: 90px;
@@ -57,13 +56,16 @@ border-color: solid #00E253;
 	padding-bottom: 85px;
 	position: relative;
 }
-footer {
-	float: bottom;
-	margin-top: 100px;
-  text-align: center;
+.profit {
+	position: relative;
+}
+.footer {
+	position: fixed;
+  padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
 	font-size: 20px;
   background-color: #191919;
   color: #00E253;
-	padding-bottom: 1px;
-	padding-top: 15px;
+	
 }
