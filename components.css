@@ -1,3 +1,19 @@
 .navbar.nav {
     padding:
 }
+    padding: 1
+}
+body {
+    text-align: center;
+    width: 100%;
+    
+}
+header {
+    padding: 8%;
+    background-color: rgb(196, 193, 193); 
+}
+h1 {
+    font-size: 100px;
+    background-color: rgb(109, 109, 109);
+    padding: 3%;
+}
