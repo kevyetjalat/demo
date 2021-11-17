@@ -1,7 +1,8 @@
-.navbar.nav {
-    padding:
+.navbar-nav {
+    padding: 0.1%;
 }
-    padding: 1
+.nav-item1 {
+    padding: 7px;
 }
 body {
     text-align: center;
