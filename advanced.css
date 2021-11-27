@@ -7,8 +7,6 @@
 
 body {
   text-align: center;
-  background-color: blue;
-  color: #39FF14;
 }
 header {
   border: 3px solid;
@@ -16,6 +14,7 @@ header {
   box-shadow: 4px 6px purple;
   width: 80%;
   margin: auto;
+  background-color: #39FF14;
 }
 .shadow {
   color: #39FF14;
