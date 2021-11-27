@@ -4,20 +4,21 @@
 <head>
   <title>Sampan verkkosivut</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="tableform.css">
   </head>
 
 <body>
   <header>
-    <h1>headeri</h1>
+    <h1>Sampan häröilyä</h1>
   </header>
 
     <section>
     <table>
-      <caption>taulukko</caption>
+      <caption>en tiedä mitä teen</caption>
       <tr>
-        <th rowspan="2">testi</th><th colspan="2">testi2</th><th>testi3</th>
+        <th rowspan="6">pöö</th><th colspan="2">pöö</th><th>pöö</th>
       </tr>
 
         <tr>
@@ -37,6 +38,32 @@
             </tr>
     </table>
 
-    
+    <h3 class="otsikko"> Liity silti jäseneksi!</h3>
+    <form action="https://www.w3schools.com/action_page.php">
+      Nimi: <input type="text" name="Nimi" placeholder="Nimesi"> *Pakollinen<br>
+      <br>
+      Sukunimi: <input type="text" name="Sukunimi" placeholder="Sukunimesi"> *Pakollinen<br>
+      <br>
+      Sähköposti: <input type="text" name="Sähköposti" placeholder="example@420.fi"> *Pakollinen<br>
+      <br>
+      Muuta: <br>
+      <textarea name="Lisätietoa" rows="4" cols="80" placeholder="Tähän voit kirjoittaa vaikka lempivärisi!"></textarea>
+      <br>
+      <input type="checkbox" name="letter" value="Signed_up">
+      <label>Haluan tilata uutiskirjeen!</label>
+      <br>
+      <p>Valitse parhaiten sinua kuvaava:</p>
+      <select Pakollinen>
+        <option value="Rotta">Rotta</option>
+        <option value="Pummi">Pummi</option>
+        <option value="Husla">Husla</option>
+        <option value="Gangsteri">Gangsteri</option>
+      </select>
+      <br>
+      <br>
+      <input type="submit" value="Add new user">
+      <br>
+      <br>
+    </form>
   </section>
 </body>

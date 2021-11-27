@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    color: white;
+}
+.otsikko {
+  padding: 1%;
+}
+header {
+  padding: 2%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: black;
+}
+
+caption, th, td {
+    border: 2px solid black;
+    background-color: red;
+}
+
+caption {
+    background-color: lightblue;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+form {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+h2 {
+    float: left;
+}
+
+section {
+    float: left;
+    width: 100%;
+}
+
+footer {
+    float: left;
+    width: 100%;
+}
